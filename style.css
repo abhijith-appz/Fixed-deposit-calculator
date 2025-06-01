@@ -17,7 +17,7 @@ body{
 }
 .container:hover{
   
-    box-shadow: 10px 10px 10px 10pxrgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
     
 
 }
@@ -36,7 +36,7 @@ h1{
     margin-bottom: 5px;
 
 }
-form-group input{
+.form-group input{
     width: 95px;
     padding: 10px;
     font-size: 16px;
