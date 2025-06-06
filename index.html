@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fixed Deposit Calculator</title>
+    <div class="heading">
+        <title>Fixed Deposit Calculator</title>
+    </div>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <div class="container">
-    <h1>FD Calculator</h1>
-    <div class="form-group">
-        <label for="principle">Principle Amount</label>
-        <input type="number" id="principle" placeholder="Enter the priciple amount">
+    <div class="container">
+        <h1>FD Calculator</h1>
+        <div class="form-group">
+            <label for="principle">Principle Amount</label>
+            <input type="number" id="principle" placeholder="Enter the priciple amount">
+        </div>
+        <div class="form-group">
+            <label for="interestRate">Interest Rate</label>
+            <input type="number" id="interestRate" placeholder="Enter the Interest Rate">
+        </div>
+        <div class="form-group">
+            <label for="tenure">Tenure (In Years)</label>
+            <input type="number" id="tenure" placeholder="Enter the tenure in years">
+        </div>
+        <button id="CalculatorBtn" class="Calculate-btn">Calculate</button>
+        <p id="Result" class="result">Maturity Amount</p>
     </div>
-    <div class="form-group">
-        <label for="interestRate">Interest Rate</label>
-        <input type="number" id="interestRate" placeholder="Enter the Interest Rate">
-    </div>
-    <div class="form-group">
-        <label for="tenure">Tenure (In Years)</label>
-        <input type="number" id="tenure" placeholder="Enter the tenure in years">
-    </div>
-    <button id="CalculatorBtn" class="Calculate-btn">Calculate</button>
-    <p id="Result" class="result">Maturity Amount</p>
-   </div>
     <script src="script.js"></script>
 </body>
+
 </html>
